@@ -1,0 +1,32 @@
+{
+  "name": "deep_thoughts",
+  "version": "1.0.0",
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "server.js",
+  "dependencies": {
+    "apollo-boost": "^0.4.9",
+    "bcrypt": "^4.0.1",
+    "graphql": "^15.4.0",
+    "mongoose": "^5.11.5",
+    "nodemon": "^2.0.6",
+    "react-dom": "^17.0.1",
+    "react-router-dom": "^5.2.0"
+  },
+  "devDependencies": {
+    "gulp-bower": "0.0.15"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/queen-stack/deep_thoughts.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/queen-stack/deep_thoughts/issues"
+  },
+  "homepage": "https://github.com/queen-stack/deep_thoughts#readme"
+}
