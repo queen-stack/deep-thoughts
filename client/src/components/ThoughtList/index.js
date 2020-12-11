@@ -20,7 +20,7 @@ const ThoughtList = ({ thoughts, title }) => {
               >
                 {thought.username}
               </Link>{' '}
-                thought on {thought.createdAt}
+              thought on {thought.createdAt}
             </p>
             <div className="card-body">
               <Link to={`/thought/${thought._id}`}>
@@ -28,7 +28,7 @@ const ThoughtList = ({ thoughts, title }) => {
                 <p className="mb-0">
                   Reactions: {thought.reactionCount} || Click to{' '}
                   {thought.reactionCount ? 'see' : 'start'} the discussion!
-                    </p>
+                </p>
               </Link>
             </div>
           </div>
