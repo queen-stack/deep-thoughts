@@ -1,7 +1,6 @@
 {
   "name": "mern-social-media",
   "version": "1.0.0",
-  "description": "",
   "main": "server/server.js",
   "scripts": {
     "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
@@ -12,12 +11,23 @@
     "heroku-postbuild": "cd client && npm run build"
   },
   "keywords": [],
-  "author": "",
+  "author": "Jenifer Queen",
   "license": "ISC",
   "dependencies": {
-    "if-env": "^1.0.4"
+    "if-env": "^1.0.4",
+    "nodemon": "^2.0.6",
+    "npm-watch": "^0.7.0"
   },
   "devDependencies": {
     "concurrently": "^5.1.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/queen-stack/deep_thoughts.git"
+  },
+  "bugs": {
+    "url": "https://github.com/queen-stack/deep_thoughts/issues"
+  },
+  "homepage": "https://github.com/queen-stack/deep_thoughts#readme",
+  "description": ""
 }
