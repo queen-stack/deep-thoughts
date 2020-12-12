@@ -62,6 +62,7 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/ad
 ### Deployment
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+deploying to heroku : https://rocky-shelf-30962.herokuapp.com/
 
 ### `npm run build` fails to minify
 
